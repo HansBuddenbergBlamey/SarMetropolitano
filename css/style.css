@@ -1,0 +1,172 @@
+/*
+Theme Name:  SAR Metropolitano
+Theme URI:   www.sarmetropolitano.cl
+Description:
+Version:     0.1
+Author:      Hans Buddenberg
+Author URL:  hans.buddenberg@me.com
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*#menu {
+    background: #ED1B24;
+    color: #FFFFFF;
+    border: 5px;
+    padding: 10px;
+}*/
+
+body {
+    /*background-color: burlywood;*/
+    background-image: url(../img/IMG_0300.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    font-size: 12pt;
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header {
+    /*background: #ED1B24;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+header #logo {}
+/*header #logo .menu {
+    background: #ED1B24;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+}*/
+
+header #logo .SAR {
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+}
+header #emergencia {
+    background-color: #ed1b24;
+    color: #fff;
+    float: right;
+    margin-right: 20px;
+    border: 5px solid #fff;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#main {
+    overflow: hidden;
+    padding-bottom: 15%;
+    /* Height of the footer element */
+}
+aside .social {
+    float: right;
+}
+aside .social ul {
+    padding: 0;
+    list-style-type: none;
+}
+aside .social .facebook {
+    background-image: url(../img/Facebook.png);
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    list-style: none;
+}
+aside .social .twitter {
+    background-image: url(../img/Twitter.png);
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    list-style: none;
+}
+aside .social .mail {
+    background-image: url(../img/Mail.png);
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    list-style: none;
+}
+#main #boton {
+    z-index: 10;
+    bottom: 15%;
+    position: fixed;
+    float: right;
+    margin-left: 75%;
+}
+#main #boton .postule {
+    background-color: #ed1b24;
+    color: #fff;
+    margin-right: 10%;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+#main .postule a:hover {
+    display: inline-block;
+    text-decoration: none;
+}
+footer {
+    z-index: 1;
+    clear: both;
+    background: #262626;
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+footer #footer .about {
+    color: #fff;
+    border: 5px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 1rem;
+    text-align: center;
+    padding-left: 44%;
+    vertical-align: middle;
+}
+footer #footer .about a {
+    text-decoration: none;
+    color: #fff;
+}
+footer #footer .about a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+footer #footer #copyright {
+    float: right;
+    color: #353535;
+    border: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: right;
+    display: inline-block;
+}
+#contruct {
+    z-index: 2;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 260px;
+}
